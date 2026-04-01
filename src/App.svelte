@@ -137,27 +137,29 @@
   :global(body),
   :global(#app) {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     margin: 0;
+    overflow: hidden;
+    background: #000;
   }
 
   :global(body) {
     font-family: 'Inter', 'Space Grotesk', system-ui, sans-serif;
     color: #f4f8ff;
-    background:
-      radial-gradient(1100px 700px at 20% -10%, rgba(77, 123, 255, 0.26), transparent 60%),
-      radial-gradient(1000px 680px at 110% 10%, rgba(122, 76, 255, 0.2), transparent 60%),
-      linear-gradient(165deg, #03050a 0%, #070912 45%, #050608 100%);
   }
 
   .screen {
-    width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    height: 100dvh;
     display: grid;
     place-items: center;
     padding: clamp(20px, 4vw, 40px);
     box-sizing: border-box;
     text-align: center;
+    background:
+      radial-gradient(1100px 700px at 20% -10%, rgba(77, 123, 255, 0.26), transparent 60%),
+      radial-gradient(1000px 680px at 110% 10%, rgba(122, 76, 255, 0.2), transparent 60%),
+      linear-gradient(165deg, #03050a 0%, #070912 45%, #050608 100%);
   }
 
   .dialog {
