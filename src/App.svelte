@@ -156,10 +156,7 @@
     padding: clamp(20px, 4vw, 40px);
     box-sizing: border-box;
     text-align: center;
-    background:
-      radial-gradient(1100px 700px at 20% -10%, rgba(77, 123, 255, 0.26), transparent 60%),
-      radial-gradient(1000px 680px at 110% 10%, rgba(122, 76, 255, 0.2), transparent 60%),
-      linear-gradient(165deg, #03050a 0%, #070912 45%, #050608 100%);
+    background: #000;
   }
 
   .dialog {
@@ -201,7 +198,7 @@
     width: 100%;
     padding: 14px 18px;
     border-radius: 999px;
-    border: 1px solid transparent;
+    border: 1px solid #000;
     font-size: 1.02rem;
     font-weight: 600;
     letter-spacing: 0.01em;
@@ -218,7 +215,7 @@
   .secondary {
     color: rgba(237, 244, 255, 0.95);
     background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.22);
+    border-color: #000;
   }
 
   button:hover {

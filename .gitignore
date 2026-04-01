@@ -12,6 +12,18 @@ dist
 dist-ssr
 *.local
 
+# OpenClaw local workspace files (never publish)
+.openclaw/
+AGENTS.md
+SOUL.md
+USER.md
+TOOLS.md
+IDENTITY.md
+HEARTBEAT.md
+MEMORY.md
+memory/
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
