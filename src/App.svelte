@@ -157,17 +157,11 @@
     place-items: center;
     padding: clamp(20px, 4vw, 40px);
     box-sizing: border-box;
+    text-align: center;
   }
 
   .dialog {
     width: min(500px, 100%);
-    padding: clamp(28px, 5vw, 44px);
-    border-radius: 30px;
-    text-align: center;
-    background: linear-gradient(160deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
-    border: 1px solid rgba(255, 255, 255, 0.17);
-    backdrop-filter: blur(16px);
-    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
   }
 
   .badge {
