@@ -8,7 +8,7 @@
 
 ## Why
 
-Android desktop modes (Google Pixel, Samsung DeX, etc.) keep the phone screen powered on while connected to an external monitor. The screen sits face-down or unused, draining battery and wearing out OLED pixels. Blacktop fixes this: one tap sends the display into a pure black fullscreen, cutting OLED power draw to near-zero without actually turning off the screen (which would kill the desktop session).
+Some Android desktop modes (Google Pixel, etc.) keep the phone screen powered on while connected to an external monitor. The screen sits face-down or unused, draining battery and wearing out OLED pixels. Blacktop fixes this: one tap sends the display into a pure black fullscreen, cutting OLED power draw to near-zero without actually turning off the screen (which would kill the desktop session).
 
 ## Features
 
