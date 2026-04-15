@@ -1,5 +1,6 @@
-import './style.css'
+import './app.css'
 import App from './App.svelte'
+import { mount } from 'svelte'
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -9,8 +10,4 @@ if ('serviceWorker' in navigator) {
   })
 }
 
-const app = new App({
-  target: document.getElementById('app')!
-})
-
-export default app
+mount(App, { target: document.getElementById('app')! })
