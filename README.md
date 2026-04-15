@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="icon.png" alt="Blacktop icon" width="120" />
+  <img src="/public/favicon.svg" alt="Blacktop icon" width="120" />
   <h1>Blacktop</h1>
   <p><strong>OLED-friendly fullscreen black overlay for Android desktop setups</strong></p>
 </div>
